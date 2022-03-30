@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {createStore, applyMiddleware} from 'redux'
 import { Provider } from 'react-redux';
 import budgetReducer from './reducers/budgetReducer';
+import Expenses from './Expenses';
 
 const store = createStore(budgetReducer);
 
@@ -20,6 +21,7 @@ const root = ReactDOMClient.createRoot(container);
 
 // Initial render: Render an element to the root.
 root.render(<App/>);
+
 
 
 

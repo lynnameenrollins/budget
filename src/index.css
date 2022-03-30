@@ -36,18 +36,21 @@ div h3 {
   padding: 20px;
   margin: 0 auto;
   height: 15px;
-  width: 30%;
-  border-bottom: 2px solid orange;
+  width: 27%;
+  border-bottom: 2px solid rgb(190, 149, 96);
 }
 .budget{
   font-size: 20px;
   color: dodgerblue;
-  background-color: #333;
+  /* background-color: #333; */
   /* padding: 20px; */
   margin: 0 auto;
-  border-bottom: 2px solid orange;
-  background-color: rgb(128, 33, 33);
   
+  background-color: rgb(33, 69, 128);
+  
+}
+.spent{
+  background-color: rgb(87, 32, 32);
 }
 .updateBudget{
   
